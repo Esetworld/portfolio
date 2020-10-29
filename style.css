@@ -84,6 +84,7 @@ canvas {
   text-decoration: none;
   font-size: 17px;
   cursor: pointer;
+  padding: 1em 1em;
 }
 
 .topnav a:not(href):hover {
@@ -99,38 +100,6 @@ canvas {
 .topnav .icon {
   display: none;
 }
-
-/* .topnav {
-  overflow: hidden ;
-  background-color: #2a2b2d;
-  position: fixed ; 
-  bottom: 0;
-  width: 100%;
-  position: sticky;
-  padding: 0.5em 0;
-  top: 0;
-}
-
-.topnav a:not(href) {
-  float: right;
-  display: block ;
-  color: #fff;
-  text-align: center;
-  padding: 1em 1em;
-  margin-right: 0.5em;
-  text-decoration: none;
-  font-size: 17px;
-  cursor: pointer;
-  font-weight: 500;
-}
-
-.topnav a:not(href):hover {
-  text-decoration: none;
-  color: #19bd9b ;
-  font-weight: 500;
-  transition: .3s;
-} */
-/* /nav */
 
 /* about me */
 .g-inner{
@@ -222,6 +191,9 @@ canvas {
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0, 0,0.9);
   transition: 0.3s;
+}
+.work a:hover{
+  text-decoration: none;
 }
 .work:hover{
   box-shadow: 0 0 10px rgba(25, 189, 155, 0.8);
